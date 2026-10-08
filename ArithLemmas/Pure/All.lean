@@ -8,5 +8,7 @@ public import ArithLemmas.Pure.Int.Basic
 public import ArithLemmas.Pure.Int.Parts
 public import ArithLemmas.Pure.Binary.Representation
 public import ArithLemmas.Pure.Binary.Comparison
+public import ArithLemmas.Pure.Binary.Subtraction
+public import ArithLemmas.Pure.Binary.Division
 
 /-! 標準ライブラリだけに依存する定義と定理をまとめる。 -/
