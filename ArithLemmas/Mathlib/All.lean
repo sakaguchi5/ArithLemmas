@@ -8,6 +8,9 @@ public import ArithLemmas.Mathlib.Int.AffineResidue
 public import ArithLemmas.Mathlib.Int.AffineResidueBounds
 public import ArithLemmas.Mathlib.Rat.Basic
 public import ArithLemmas.Mathlib.Rat.ArithmeticBridge
+public import ArithLemmas.Mathlib.Rat.DenominatorArithmetic
+public import ArithLemmas.Mathlib.Rat.DyadicArithmetic
+public import ArithLemmas.Mathlib.Rat.PrimePowerDenominator
 public import ArithLemmas.Mathlib.ZMod.Basic
 public import ArithLemmas.Mathlib.ZMod.GCDReduction
 public import ArithLemmas.Mathlib.ZMod.CRTBridge
@@ -22,6 +25,7 @@ public import ArithLemmas.Mathlib.Nat.CeilSqrt
 public import ArithLemmas.Mathlib.Nat.CRT
 public import ArithLemmas.Mathlib.Nat.PrimeDivisors
 public import ArithLemmas.Mathlib.Nat.PrimeGCDProducts
+public import ArithLemmas.Mathlib.Nat.PrimePowers
 public import ArithLemmas.Mathlib.Nat.BitLength
 public import ArithLemmas.Mathlib.Binary.BitLength
 public import ArithLemmas.Mathlib.Binary.CostLog
