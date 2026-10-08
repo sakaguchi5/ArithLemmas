@@ -2,11 +2,15 @@ module
 
 public import ArithLemmas.Mathlib.Int.Basic
 public import ArithLemmas.Mathlib.Int.ResidueInterval
+public import ArithLemmas.Mathlib.Int.CRTInterval
+public import ArithLemmas.Mathlib.Int.CRTCountError
 public import ArithLemmas.Mathlib.Rat.Basic
 public import ArithLemmas.Mathlib.Rat.ArithmeticBridge
 public import ArithLemmas.Mathlib.ZMod.Basic
 public import ArithLemmas.Mathlib.ZMod.GCDReduction
 public import ArithLemmas.Mathlib.ZMod.CRTBridge
+public import ArithLemmas.Mathlib.ZMod.ResidueLifting
+public import ArithLemmas.Mathlib.ZMod.CRTCounting
 public import ArithLemmas.Mathlib.Finset.Basic
 public import ArithLemmas.Mathlib.Finset.BinaryBridge
 public import ArithLemmas.Mathlib.Finset.GCDCoordinates
