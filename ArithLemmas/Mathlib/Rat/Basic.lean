@@ -1,3 +1,6 @@
+module
+
+public import Mathlib.Algebra.Field.Rat
 import Mathlib.Tactic.Ring
 
 /-!
@@ -6,6 +9,8 @@ import Mathlib.Tactic.Ring
 分母を共有する分数の加減算など、計算の際に再利用できる恒等式。
 -/
 set_option linter.style.docString false
+
+public section
 
 namespace ArithLemmas.Mathlib.Rat
 

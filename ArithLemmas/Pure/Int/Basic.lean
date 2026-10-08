@@ -1,10 +1,14 @@
-import ArithLemmas.Pure.Defs.Int.Basic
+module
+
+public import ArithLemmas.Pure.Defs.Int.Basic
 
 /-!
 # 整数の導出定理
 
 区間と剰余による合同について、基本的な論理的性質を示す。
 -/
+
+public section
 
 namespace ArithLemmas.Pure.Int
 

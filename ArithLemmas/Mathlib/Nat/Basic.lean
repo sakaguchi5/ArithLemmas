@@ -1,4 +1,6 @@
-import ArithLemmas.Pure.Nat.Basic
+module
+
+public import ArithLemmas.Pure.Nat.Basic
 import Mathlib.Algebra.BigOperators.Group.Finset.Defs
 
 /-!
@@ -8,6 +10,8 @@ import Mathlib.Algebra.BigOperators.Group.Finset.Defs
 原典由来の証明を採用する場合は、名称と内容の対応を残す。
 -/
 set_option linter.style.docString false
+
+public section
 
 namespace ArithLemmas.Mathlib.Nat
 

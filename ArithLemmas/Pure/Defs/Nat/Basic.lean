@@ -1,4 +1,4 @@
-
+module
 
 /-!
 # 自然数の薄い定義
@@ -7,6 +7,8 @@ Lean 本体の `Nat`・`Nat.gcd`・自然数除算を使用する。
 問題ごとの計算回路を持ち込まず、数そのものに対する操作だけを定義する。
 ここでは数学的性質を定義に埋め込まず、別のファイルで定理として導く。
 -/
+
+@[expose] public section
 
 namespace ArithLemmas.Pure.Defs.Nat
 

@@ -1,4 +1,6 @@
-import Mathlib.Basic.Real.Basic
+module
+
+public import Mathlib.Basic.Real.Basic
 import Mathlib.Tactic.Ring
 import Mathlib.Tactic.Linarith
 
@@ -8,6 +10,8 @@ import Mathlib.Tactic.Linarith
 整数・有理数から実数へ移した評価にも使用できる基本補題。
 -/
 set_option linter.style.docString false
+
+public section
 
 namespace ArithLemmas.Mathlib.Real
 

@@ -1,4 +1,6 @@
-import ArithLemmas.Pure.Int.Basic
+module
+
+public import ArithLemmas.Pure.Int.Basic
 
 /-!
 # 整数の自動化された証明
@@ -6,6 +8,8 @@ import ArithLemmas.Pure.Int.Basic
 区間の移動や加算に関する性質を、Lean 本体の `omega` で証明する。
 このファイルは Mathlib を必要としない。
 -/
+
+public section
 
 namespace ArithLemmas.Tactic.Int
 

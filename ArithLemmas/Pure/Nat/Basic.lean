@@ -1,10 +1,14 @@
-import ArithLemmas.Pure.Defs.Nat.Basic
+module
+
+public import ArithLemmas.Pure.Defs.Nat.Basic
 
 /-!
 # 自然数の導出定理
 
 追加の数学ライブラリを使わず、薄い定義の基本性質を証明する。
 -/
+
+public section
 
 namespace ArithLemmas.Pure.Nat
 

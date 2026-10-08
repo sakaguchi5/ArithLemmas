@@ -1,9 +1,13 @@
+module
+
 /-!
 # 整数の薄い定義
 
 Lean 本体の整数型 `Int` を使い、区間と合同関係を標準的な演算から作る。
 新しい構造体や公理は導入しない。
 -/
+
+@[expose] public section
 
 namespace ArithLemmas.Pure.Defs.Int
 

@@ -1,5 +1,7 @@
-import ArithLemmas.Mathlib.Finset.Basic
-import Mathlib.Data.ZMod.Basic
+module
+
+public import ArithLemmas.Mathlib.Finset.Basic
+public import Mathlib.Data.ZMod.Basic
 import Mathlib.Algebra.BigOperators.Group.Finset.Defs
 
 /-!
@@ -9,6 +11,8 @@ import Mathlib.Algebra.BigOperators.Group.Finset.Defs
 原典：ハイルブロン三角形問題における桁の符号化。
 -/
 set_option linter.style.docString false
+
+public section
 
 namespace ArithLemmas.Mathlib.ZMod
 

@@ -11,7 +11,7 @@ import Mathlib.Tactic.Ring
 有限和に関する汎用的な計算と、周期的な剰余類の個数を扱う。
 原典：ハイルブロン三角形問題における桁の符号化。
 -/
-@[expose] public section
+public section
 set_option linter.style.docString false
 
 namespace ArithLemmas.Mathlib.Finset

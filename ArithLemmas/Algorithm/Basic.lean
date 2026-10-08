@@ -1,6 +1,8 @@
+module
+
+public import ArithLemmas.Pure.Nat.Basic
+public import ArithLemmas.Tactic.Nat.Basic
 import Mathlib.Algebra.BigOperators.Group.Finset.Defs
-import ArithLemmas.Pure.Nat.Basic
-import ArithLemmas.Tactic.Nat.Basic
 
 /-!
 # ユークリッド互除法の計算手続き
@@ -10,6 +12,8 @@ import ArithLemmas.Tactic.Nat.Basic
 原典：量子因数分解における互除法の回路。
 -/
 set_option linter.style.docString false
+
+public section
 
 namespace ArithLemmas.Algorithm
 

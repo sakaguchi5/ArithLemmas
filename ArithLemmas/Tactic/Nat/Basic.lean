@@ -1,4 +1,6 @@
-import ArithLemmas.Pure.All
+module
+
+public import ArithLemmas.Pure.All
 
 /-!
 # 自然数の自動化された証明
@@ -7,6 +9,8 @@ import ArithLemmas.Pure.All
 不等式の証明には Lean 本体の `omega` を利用する。
 このファイルは Mathlib を読み込まず、`Nat` の標準的な性質だけを使用する。
 -/
+
+public section
 
 namespace ArithLemmas.Tactic.Nat
 

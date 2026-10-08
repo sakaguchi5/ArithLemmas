@@ -1,5 +1,8 @@
-import Mathlib.Algebra.Ring.Defs
+module
+
+public import Mathlib.Algebra.Ring.Defs
 import Mathlib.Tactic.Ring
+
 /-!
 # 可換半環上の恒等式
 
@@ -7,6 +10,8 @@ import Mathlib.Tactic.Ring
 可換半環という一般的な設定で証明する。
 -/
 set_option linter.style.docString false
+
+public section
 
 namespace ArithLemmas.Mathlib.Algebra
 

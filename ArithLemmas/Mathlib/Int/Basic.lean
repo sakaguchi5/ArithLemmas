@@ -1,6 +1,8 @@
+module
+
 import ArithLemmas.Tactic.Int.Basic
-import Mathlib.Data.Int.Notation
-import Mathlib.Algebra.Order.Ring.Abs
+public import Mathlib.Data.Int.Notation
+public import Mathlib.Algebra.Order.Ring.Abs
 
 /-!
 # 整数の差と距離
@@ -8,6 +10,8 @@ import Mathlib.Algebra.Order.Ring.Abs
 絶対値から得られる基本的な距離の性質を整理する。
 -/
 set_option linter.style.docString false
+
+public section
 
 namespace ArithLemmas.Mathlib.Int
 
