@@ -19,6 +19,9 @@ public import ArithLemmas.Mathlib.Nat.CeilSqrt
 public import ArithLemmas.Mathlib.Nat.CRT
 public import ArithLemmas.Mathlib.Nat.PrimeDivisors
 public import ArithLemmas.Mathlib.Nat.PrimeGCDProducts
+public import ArithLemmas.Mathlib.Nat.BitLength
+public import ArithLemmas.Mathlib.Binary.BitLength
+public import ArithLemmas.Mathlib.Binary.CostLog
 public import ArithLemmas.Mathlib.Real.Basic
 public import ArithLemmas.Mathlib.Real.ArithmeticBridge
 public import ArithLemmas.Mathlib.Real.SqrtBridge
