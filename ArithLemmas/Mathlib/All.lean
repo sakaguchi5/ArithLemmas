@@ -14,9 +14,11 @@ public import ArithLemmas.Mathlib.Finset.ResidueBlocks
 public import ArithLemmas.Mathlib.Nat.CeilSqrt
 public import ArithLemmas.Mathlib.Nat.CRT
 public import ArithLemmas.Mathlib.Nat.PrimeDivisors
+public import ArithLemmas.Mathlib.Nat.PrimeGCDProducts
 public import ArithLemmas.Mathlib.Real.Basic
 public import ArithLemmas.Mathlib.Real.ArithmeticBridge
 public import ArithLemmas.Mathlib.Real.SqrtBridge
+public import ArithLemmas.Mathlib.Real.PrimeDivisorPopulation
 public import ArithLemmas.Mathlib.Algebra.Basic
 
-/-! 数学ライブラリに依存する定義・定理・証明をまとめる。 -/
+/-! 数学ライブラリに依存する定義・定理・証明をまとめる。-/
