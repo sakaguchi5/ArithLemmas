@@ -8,8 +8,10 @@ public import ArithLemmas.Mathlib.ZMod.GCDReduction
 public import ArithLemmas.Mathlib.Finset.Basic
 public import ArithLemmas.Mathlib.Finset.BinaryBridge
 public import ArithLemmas.Mathlib.Finset.GCDCoordinates
+public import ArithLemmas.Mathlib.Nat.CeilSqrt
 public import ArithLemmas.Mathlib.Real.Basic
 public import ArithLemmas.Mathlib.Real.ArithmeticBridge
+public import ArithLemmas.Mathlib.Real.SqrtBridge
 public import ArithLemmas.Mathlib.Algebra.Basic
 
 /-! 数学ライブラリに依存する定義・定理・証明をまとめる。-/
