@@ -1,7 +1,6 @@
 module
 
 public import ArithLemmas.Pure.All
-public import ArithLemmas.Tactic.All
 public import ArithLemmas.Mathlib.All
 public import ArithLemmas.Algorithm.All
 

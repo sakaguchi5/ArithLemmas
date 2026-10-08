@@ -1,6 +1,5 @@
 module
 
-import ArithLemmas.Tactic.Int.Basic
 public import Mathlib.Data.Int.Notation
 public import Mathlib.Algebra.Order.Ring.Abs
 
@@ -8,6 +7,7 @@ public import Mathlib.Algebra.Order.Ring.Abs
 # 整数の差と距離
 
 絶対値から得られる基本的な距離の性質を整理する。
+これらの定理は数学ライブラリ側の絶対値・順序の仕組みを利用する。
 -/
 set_option linter.style.docString false
 

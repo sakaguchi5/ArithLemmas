@@ -1,7 +1,6 @@
 module
 
 public import ArithLemmas.Pure.Nat.Basic
-public import ArithLemmas.Tactic.Nat.Basic
 import Mathlib.Algebra.BigOperators.Group.Finset.Defs
 
 /-!
@@ -19,7 +18,6 @@ namespace ArithLemmas.Algorithm
 
 open ArithLemmas.Pure.Defs.Nat
 open ArithLemmas.Pure.Nat
-open ArithLemmas.Tactic.Nat
 
 /-- 第２成分が２の指定冪より小さければ、
 その指数の２倍以上の反復で最大公約数と０に到達する。

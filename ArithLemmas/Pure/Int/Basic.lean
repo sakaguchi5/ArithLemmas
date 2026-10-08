@@ -5,7 +5,7 @@ public import ArithLemmas.Pure.Defs.Int.Basic
 /-!
 # 整数の導出定理
 
-区間と剰余による合同について、基本的な論理的性質を示す。
+Lean 本体の整数型、合同条件、区間条件、基本証明戦術だけを使用する。
 -/
 
 public section
@@ -40,5 +40,26 @@ theorem interval_right {a b : Int} (hab : a ≤ b) : inInterval a b b :=
 /-- 区間に属することから、上端と下端の不等式が得られる。-/
 theorem interval_bounds {a b x : Int} (hx : inInterval a b x) :
     a ≤ x ∧ x ≤ b := hx
+
+/-- 区間と点を同じだけ平行移動しても、所属関係は変わらない。-/
+theorem interval_translate (l u x t : Int) :
+    inInterval l u x ↔ inInterval (l + t) (u + t) (x + t) := by
+  simp only [inInterval]
+  omega
+
+/-- 二つの区間からそれぞれ選んだ整数の和は、端点を足した区間に入る。-/
+theorem interval_add {l u x l' u' y : Int}
+    (hx : inInterval l u x) (hy : inInterval l' u' y) :
+    inInterval (l + l') (u + u') (x + y) := by
+  rcases hx with ⟨hlx, hxu⟩
+  rcases hy with ⟨hly, hyu⟩
+  constructor <;> omega
+
+/-- 区間の一部分に含まれる点は、拡げた区間にも含まれる。-/
+theorem interval_mono {l u x l' u' : Int}
+    (hx : inInterval l u x) (hleft : l' ≤ l) (hright : u ≤ u') :
+    inInterval l' u' x := by
+  rcases hx with ⟨hlx, hxu⟩
+  exact ⟨Int.le_trans hleft hlx, Int.le_trans hxu hright⟩
 
 end ArithLemmas.Pure.Int
