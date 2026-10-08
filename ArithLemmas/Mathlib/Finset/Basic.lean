@@ -16,9 +16,8 @@ set_option linter.style.docString false
 
 namespace ArithLemmas.Mathlib.Finset
 
-
 /-- 基数と桁列から、最初の指定個数の桁が表す自然数を作る。-/
-def baseValue (B k : ℕ) (digit : ℕ → ℕ) : ℕ :=
+@[expose] def baseValue (B k : ℕ) (digit : ℕ → ℕ) : ℕ :=
   ∑ i ∈ Finset.range k, digit i * B ^ i
 
 /-- 先頭の桁を取り出すと、残りの桁は基数倍として表せる。-/
