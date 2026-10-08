@@ -10,5 +10,7 @@ public import ArithLemmas.Pure.Binary.Representation
 public import ArithLemmas.Pure.Binary.Comparison
 public import ArithLemmas.Pure.Binary.Subtraction
 public import ArithLemmas.Pure.Binary.Division
+public import ArithLemmas.Pure.Binary.SignedDivision
+public import ArithLemmas.Pure.Binary.Cost
 
 /-! 標準ライブラリだけに依存する定義と定理をまとめる。 -/
