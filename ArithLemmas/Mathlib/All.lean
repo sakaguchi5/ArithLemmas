@@ -3,8 +3,9 @@ module
 public import ArithLemmas.Mathlib.Int.Basic
 public import ArithLemmas.Mathlib.Int.ResidueInterval
 public import ArithLemmas.Mathlib.Int.CRTInterval
-public import ArithLemmas.Mathlib.Int.CRTCountError
 public import ArithLemmas.Mathlib.Int.AffineResidue
+public import ArithLemmas.Mathlib.Int.GeneralizedCRT
+public import ArithLemmas.Mathlib.Int.CRTCountError
 public import ArithLemmas.Mathlib.Int.AffineResidueBounds
 public import ArithLemmas.Mathlib.Rat.Basic
 public import ArithLemmas.Mathlib.Rat.ArithmeticBridge
