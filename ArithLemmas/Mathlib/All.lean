@@ -21,6 +21,9 @@ public import ArithLemmas.Mathlib.Int.MatrixSmithLattice
 public import ArithLemmas.Mathlib.Int.MatrixSmithConsequences
 public import ArithLemmas.Mathlib.Int.MatrixSmithFiberCounting
 public import ArithLemmas.Mathlib.Finset.MatrixSmithBoxes
+public import ArithLemmas.Mathlib.Int.RectangularSmithLattice
+public import ArithLemmas.Mathlib.Int.RectangularSmithCounting
+public import ArithLemmas.Mathlib.Finset.RectangularSmithBoxes
 public import ArithLemmas.Mathlib.Int.AffineResidueBounds
 public import ArithLemmas.Mathlib.Rat.Basic
 public import ArithLemmas.Mathlib.Rat.ArithmeticBridge

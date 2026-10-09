@@ -20,7 +20,7 @@ namespace ArithLemmas.Mathlib.Int
 open ArithLemmas.Mathlib.ZMod
 
 /-- 整数ベクトルを座標ごとに `ZMod m` へ還元する加法準同型。 -/
-def integerVectorModHom (n m : ℕ) :
+@[expose] def integerVectorModHom (n m : ℕ) :
     (Fin n → ℤ) →+ (Fin n → ZMod m) where
   toFun x := fun i => (x i : ZMod m)
   map_zero' := by
