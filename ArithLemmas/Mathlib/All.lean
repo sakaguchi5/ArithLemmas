@@ -24,6 +24,10 @@ public import ArithLemmas.Mathlib.Finset.MatrixSmithBoxes
 public import ArithLemmas.Mathlib.Int.RectangularSmithLattice
 public import ArithLemmas.Mathlib.Int.RectangularSmithCounting
 public import ArithLemmas.Mathlib.Finset.RectangularSmithBoxes
+public import ArithLemmas.Mathlib.Rat.LeastCommonDenominator
+public import ArithLemmas.Mathlib.Nat.PrimeGCDExact
+public import ArithLemmas.Mathlib.Finset.GeneralBaseRepresentation
+public import ArithLemmas.Mathlib.Nat.SqrtLogCharacterization
 public import ArithLemmas.Mathlib.Int.AffineResidueBounds
 public import ArithLemmas.Mathlib.Rat.Basic
 public import ArithLemmas.Mathlib.Rat.ArithmeticBridge
