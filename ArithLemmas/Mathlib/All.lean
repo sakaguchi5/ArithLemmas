@@ -14,6 +14,9 @@ public import ArithLemmas.Mathlib.Int.LinearCongruenceCounting
 public import ArithLemmas.Mathlib.Int.MultivariableLinearCongruence
 public import ArithLemmas.Mathlib.ZMod.LinearCongruenceFibers
 public import ArithLemmas.Mathlib.Finset.LinearCongruenceBoxes
+public import ArithLemmas.Mathlib.ZMod.MatrixCongruence
+public import ArithLemmas.Mathlib.ZMod.DiagonalCongruence
+public import ArithLemmas.Mathlib.ZMod.MatrixDiagonalReduction
 public import ArithLemmas.Mathlib.Int.AffineResidueBounds
 public import ArithLemmas.Mathlib.Rat.Basic
 public import ArithLemmas.Mathlib.Rat.ArithmeticBridge
