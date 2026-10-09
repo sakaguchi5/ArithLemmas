@@ -8,6 +8,9 @@ public import ArithLemmas.Mathlib.Int.GeneralizedCRT
 public import ArithLemmas.Mathlib.Int.FiniteCRT
 public import ArithLemmas.Mathlib.Int.FiniteCRTCompatibility
 public import ArithLemmas.Mathlib.Int.FiniteCRTRefinement
+public import ArithLemmas.Mathlib.Int.LinearCongruence
+public import ArithLemmas.Mathlib.Int.FiniteLinearCongruences
+public import ArithLemmas.Mathlib.Int.LinearCongruenceCounting
 public import ArithLemmas.Mathlib.Int.AffineResidueBounds
 public import ArithLemmas.Mathlib.Rat.Basic
 public import ArithLemmas.Mathlib.Rat.ArithmeticBridge
