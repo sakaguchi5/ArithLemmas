@@ -7,7 +7,7 @@ public import ArithLemmas.Mathlib.Int.AffineResidue
 public import ArithLemmas.Mathlib.Int.GeneralizedCRT
 public import ArithLemmas.Mathlib.Int.FiniteCRT
 public import ArithLemmas.Mathlib.Int.FiniteCRTCompatibility
-public import ArithLemmas.Mathlib.Int.CRTCountError
+public import ArithLemmas.Mathlib.Int.FiniteCRTRefinement
 public import ArithLemmas.Mathlib.Int.AffineResidueBounds
 public import ArithLemmas.Mathlib.Rat.Basic
 public import ArithLemmas.Mathlib.Rat.ArithmeticBridge
